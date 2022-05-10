@@ -1,4 +1,4 @@
-# hackerrank-sql
+# Basic Select Problems
 **my solutions to Hacker Rank's SQL problems using MySQL syntax**
 
 [<h3>Weather Observation Station 1</h3>](https://www.hackerrank.com/challenges/weather-observation-station-1/)
