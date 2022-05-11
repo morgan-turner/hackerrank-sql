@@ -65,3 +65,38 @@ FROM occupations
 GROUP BY occupation
 ORDER BY COUNT(occupation), occupation 
 ```
+
+
+[<h3>Occupations</h3>](https://www.hackerrank.com/challenges/occupations/)
+Pivot the Occupation column in OCCUPATIONS so that each Name is sorted alphabetically and displayed underneath its corresponding Occupation. The output column headers should be Doctor, Professor, Singer, and Actor, respectively.
+Note: Print NULL when there are no more names corresponding to an occupation.
+<br> The OCCUPATIONS table is described as follows:
+
+|  Column | Type |
+|-------|------|
+| Name | STRING |
+| Occupation | STRING |
+
+Occupation will only contain one of the following values: Doctor, Professor, Singer or Actor.
+<br> Sample input:
+
+|  Name | Occupation |
+|-------|------|
+| Samantha | Doctor |
+| Julia | Actor |
+| Maria | Actor |
+| Meera | Singer |
+| Ashley | Professor |
+| Ketty | Professor |
+| Christeen | Professor |
+| Jane | Actor |
+| Jenny | Doctor |
+| Priya | Singer |
+
+**SOLUTION:**
+```sql
+
+```
+
+
+
