@@ -66,7 +66,7 @@ GROUP BY occupation
 ORDER BY COUNT(occupation), occupation 
 ```
 
-
+<!--
 [<h3>Occupations</h3>](https://www.hackerrank.com/challenges/occupations/)
 Pivot the Occupation column in OCCUPATIONS so that each Name is sorted alphabetically and displayed underneath its corresponding Occupation. The output column headers should be Doctor, Professor, Singer, and Actor, respectively.
 Note: Print NULL when there are no more names corresponding to an occupation.
@@ -97,6 +97,6 @@ Occupation will only contain one of the following values: Doctor, Professor, Sin
 ```sql
 
 ```
-
+-->
 
 
