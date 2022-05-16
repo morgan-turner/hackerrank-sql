@@ -259,3 +259,30 @@ SELECT ROUND(MIN(lat_n), 4)
 FROM station
 WHERE lat_n > 38.7780
 ```
+
+
+[<h3>Weather Observation Station 17</h3>](https://www.hackerrank.com/challenges/weather-observation-station-17/)
+Query the Western Longitude (LONG_W) where the smallest Northern Latitude (LAT_N) in STATION is greater than 38.7780. Round your answer to 4 decimal places.
+
+The STATION table is described as follows:
+
+|  Field | Type |
+|-------|------|
+| ID | NUMBER |
+| CITY | VARCHAR2(21) |
+| STATE | VARCHAR2(2) |
+| LAT_N | NUMBER |
+| LONG_W | NUMBER |
+
+where LAT_N is the northern latitude and LONG_W is the western longitude. 
+
+**SOLUTION:**
+```sql
+SELECT ROUND(long_w, 4)
+FROM station
+WHERE lat_n > 38.7780
+ORDER BY lat_n ASC
+LIMIT 1
+```
+
+
